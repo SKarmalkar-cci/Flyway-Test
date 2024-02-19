@@ -1,0 +1,17 @@
+databaseType = "MySql"
+name = "Flyway Test"
+id = "e91a8560-8d33-4348-808d-99725b11b9fc"
+
+[flywayDesktop]
+developmentEnvironment = "development"
+shadowEnvironment = "shadow"
+schemaModel = "./schema-model"
+
+[redgateCompare]
+filterFile = "filter.rgf"
+
+[flyway]
+mixed = true
+outOfOrder = true
+locations = ["filesystem:migrations"]
+validateMigrationNaming = true

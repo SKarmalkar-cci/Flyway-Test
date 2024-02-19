@@ -1,0 +1,1 @@
+create table UserSettings (int id)

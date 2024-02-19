@@ -1,0 +1,1 @@
+create table UserMap(int id)
